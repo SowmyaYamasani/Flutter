@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type = "text/javascript">
+        function convert(){
+            var cel = document.getElementById('data').value;
+            var a = cel*(9/5)+32;
+            //var b = cel*a;
+            document.getElementById('res').innerText = a;
+        } 
+    </script>
+       
+</head>
+<body>
+    <input type="number" name=" " step="any" id="data"/>cel
+    <button onclick = "convert()">Converter</button>F;
+    <h1 id="res"></h1>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        //to convert kilometers to miles here the constant number is 0.621371
+        function convert(){
+        var kms = document.getElementById('data').value;
+        const a = 0.621371;
+        var b = kms * a;
+        
+        document.getElementById('res').innerText= b+'miles';
+        }
+    </script>
+</head>
+<body>
+    <input type = "number" name=" " step="any" id="data"/>kms
+    <button onclick="convert()">Convert</button>miles;
+    <h1 id = "res"></h1>
+</body>
+</html>

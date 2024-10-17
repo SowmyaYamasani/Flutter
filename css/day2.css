@@ -1,0 +1,22 @@
+*{ background-color: black;}
+div{
+    background-color: rgb(48, 111, 166);
+    color:black;
+    color:blue;
+    background-color: azure;
+   
+
+}
+#sec-2{
+    background-color: aqua;
+    color: cornflowerblue;
+}
+#sec-3{
+    background-color:brown;
+    color: rgb(21, 23, 27);
+}
+.sec{
+    background-color: chocolate;
+    color: rgb(21, 23, 27);
+
+}
