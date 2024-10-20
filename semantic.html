@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Developer Application Form</title>
+
+</head>
+<body>
+    <div style="border: 1px solid #ccc; padding: 20px; width: 500px; margin-left: 0; margin-right: auto;">
+        <h2>Full Stack Developer Application Form</h2>
+        <form action="./semout.html">
+            <!-- Full Name -->
+            <label for="fullName">Full Name *</label><br>
+            <input type="text" id="fullName" name="fullName" placeholder="Name here" required style="width: 100%; padding: 8px;"><br><br>
+
+            <!-- Email -->
+            <label for="email">Email *</label><br>
+            <input type="email" id="email" name="email" placeholder="Email here" required style="width: 100%; padding: 8px;"><br><br>
+
+            <!-- Phone Number -->
+            <label for="phone">Phone Number *</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required style="width: 100%; padding: 8px;"><br><br>
+
+            <!-- Years of Experience -->
+            <label for="experience">Years of Experience *</label><br>
+            <input type="number" id="experience" name="experience" placeholder="Enter experience" required style="width: 100%; padding: 8px;"><br><br>
+
+            <!-- Skills -->
+            <label for="skills">Skills *</label><br>
+            <select id="skills" name="skills" required style="width: 100%; padding: 8px;">
+                <option value="" disabled selected>Select your skills</option>
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="Full Stack">Full Stack</option>
+                <option value="Database">Database</option>
+            </select><br><br>
+
+            <!-- Short Bio -->
+            <label for="bio">Short Bio</label><br>
+            <textarea id="bio" name="bio" rows="4" placeholder="Tell us about yourself..." style="width: 100%; padding: 8px;"></textarea><br><br>
+
+            <!-- Projects -->
+            <label for="projects">Projects (optional)</label><br>
+            <input type="text" id="projects" name="projects" placeholder="Project 1, Project 2" style="width: 100%; padding: 8px;"><br><br>
+
+            <!-- Submit Button -->
+            <button type="submit" style="padding: 10px 20px; width: 40%; background-color: green; color: white;">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
